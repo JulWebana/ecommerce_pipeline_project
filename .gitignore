@@ -1,0 +1,18 @@
+# Dossier de l'environnement virtuel
+venv/
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+
+# Fichiers de checkpoints Jupyter
+.ipynb_checkpoints/
+
+# Fichiers système
+.DS_Store
+
+# Résultats d’analyse
+output/*.csv
+
+# Base de données SQLite
+data/*.db
