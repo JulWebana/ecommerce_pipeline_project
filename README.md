@@ -16,7 +16,7 @@ Ce projet met en place un **pipeline de traitement de données e-commerce** comp
 
 ## Stack utilisée
 
-- Python 🐍
+- Python 
 - pandas, matplotlib, seaborn
 - SQLite
 - Jupyter Notebook
@@ -50,7 +50,7 @@ ecommerce_pipeline_project/
 ├── main.py                    # Script principal du pipeline
 ├── requirements.txt           # Dépendances Python
 ├── .gitignore                 # Fichiers/dossiers ignorés par Git
-└── README.md                  # Ce fichier ✨
+└── README.md                  # Ce fichier 
 ```
 
 ---
@@ -60,21 +60,28 @@ ecommerce_pipeline_project/
 
 ### 1. Cloner le projet
 
+```bash
 git clone https://github.com/TON_UTILISATEUR/ecommerce_pipeline_project.git
 
 cd ecommerce_pipeline_project
-
+```
 
 ### 2. Créer un environnement virtuel :
 
+```bash
 python -m venv venv
 .\venv\Scripts\activate
+```
 
 ### 3. Installer les dépendances :
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Lancer le pipeline :
+```bash
 python main.py
+```
 
 Les résultats seront générés dans le dossier output/.
 
@@ -112,11 +119,13 @@ Les graphiques sont interprétés + commentés pour donner une vraie perspective
 
 - top_customers.csv : Clients les plus actifs 
 
+---
 
 ## Auteur
 
 Projet réalisé par Julien T.W AGA dans le cadre de ma montée en compétence en Data Engineering & Data Analytics.
 
+---
 
 ## Licence
 
