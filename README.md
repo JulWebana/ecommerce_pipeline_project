@@ -1,11 +1,10 @@
 # 🛍️ E-commerce Sales Pipeline Project
 
-Ce projet met en place un **pipeline de traitement de données e-commerce** complet :  
-de l’ingestion des données brutes jusqu’à l’analyse et la visualisation des ventes.
+Ce projet met en place un **pipeline de traitement de données e-commerce** complet : de l’ingestion des données brutes jusqu’à l’analyse et la visualisation des ventes.
 
 ---
 
-## 📦 Objectifs
+## Objectifs
 
 - Nettoyer des données brutes de ventes
 - Charger les données dans une base **SQLite**
@@ -15,7 +14,7 @@ de l’ingestion des données brutes jusqu’à l’analyse et la visualisation 
 
 ---
 
-## 🔧 Stack utilisée
+## Stack utilisée
 
 - Python 🐍
 - pandas, matplotlib, seaborn
@@ -25,41 +24,44 @@ de l’ingestion des données brutes jusqu’à l’analyse et la visualisation 
 
 ---
 
-## 🗂️ Structure du projet
+## Structure du projet
 
 
+```
 ecommerce_pipeline_project/
-│
-├── data/                  # Données brutes et nettoyées + DB SQLite
+├── data/                       # Données brutes, nettoyées et base SQLite
 │   ├── raw_sales_data.csv
 │   ├── cleaned_sales_data.csv
 │   └── sales.db
 │
-├── notebooks/             # Visualisations Jupyter
+├── notebooks/                 # Visualisations (Jupyter)
 │   └── visualisations.ipynb
 │
-├── output/                # Fichiers CSV des résultats d'analyse
+├── output/                    # Résultats CSV générés par les analyses
 │   ├── top_products.csv
 │   ├── top_customers.csv
 │   └── ...
 │
-├── scripts/               # Tous les scripts Python (nettoyage, chargement, analyse)
+├── scripts/                   # Scripts Python (nettoyage, chargement, analyse)
 │   ├── clean_data.py
 │   ├── load_to_sqlite.py
 │   └── analyze_data.py
 │
-├── main.py                # Script d’orchestration du pipeline
-├── requirements.txt       # Liste des dépendances Python
-└── README.md              # Ce fichier ✨
+├── main.py                    # Script principal du pipeline
+├── requirements.txt           # Dépendances Python
+├── .gitignore                 # Fichiers/dossiers ignorés par Git
+└── README.md                  # Ce fichier ✨
+```
+
+---
 
 
-
-
-## ⚙️ Exécution du pipeline
+## Exécution du pipeline
 
 ### 1. Cloner le projet
 
 git clone https://github.com/TON_UTILISATEUR/ecommerce_pipeline_project.git
+
 cd ecommerce_pipeline_project
 
 
@@ -75,6 +77,8 @@ pip install -r requirements.txt
 python main.py
 
 Les résultats seront générés dans le dossier output/.
+
+---
 
 ## Visualisations
 
@@ -92,6 +96,7 @@ Le notebook notebooks/visualisations.ipynb contient :
 
 Les graphiques sont interprétés + commentés pour donner une vraie perspective business.
 
+---
 
 ## Résultats générés
 
