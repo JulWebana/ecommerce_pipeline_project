@@ -1,11 +1,11 @@
-# E-commerce Sales Pipeline Project
+# 🛍️ E-commerce Sales Pipeline Project
 
 Ce projet met en place un **pipeline de traitement de données e-commerce** complet :  
 de l’ingestion des données brutes jusqu’à l’analyse et la visualisation des ventes.
 
 ---
 
-## Objectifs
+## 📦 Objectifs
 
 - Nettoyer des données brutes de ventes
 - Charger les données dans une base **SQLite**
@@ -15,35 +15,53 @@ de l’ingestion des données brutes jusqu’à l’analyse et la visualisation 
 
 ---
 
-## Stack utilisée
+## 🔧 Stack utilisée
 
-- Python 
+- Python 🐍
 - pandas, matplotlib, seaborn
 - SQLite
 - Jupyter Notebook
 - VS Code
 
+---
 
-## Structure du projet
+## 🗂️ Structure du projet
 
 
 ecommerce_pipeline_project/
-├── data/                           Données brutes et nettoyées + DB SQLite
-├── notebooks/                      Visualisations Jupyter
-├── output/                         Fichiers CSV des résultats d'analyse
-├── scripts/                        Tous les scripts Python  
-├── main.py                         Script d’orchestration du pipeline
-├── requirements.txt                Liste des dépendances Python
-├── README.md                       Ce fichier
-└── venv/                           Environnement virtuel local (ne pas push sur GitHub)
+│
+├── data/                  # Données brutes et nettoyées + DB SQLite
+│   ├── raw_sales_data.csv
+│   ├── cleaned_sales_data.csv
+│   └── sales.db
+│
+├── notebooks/             # Visualisations Jupyter
+│   └── visualisations.ipynb
+│
+├── output/                # Fichiers CSV des résultats d'analyse
+│   ├── top_products.csv
+│   ├── top_customers.csv
+│   └── ...
+│
+├── scripts/               # Tous les scripts Python (nettoyage, chargement, analyse)
+│   ├── clean_data.py
+│   ├── load_to_sqlite.py
+│   └── analyze_data.py
+│
+├── main.py                # Script d’orchestration du pipeline
+├── requirements.txt       # Liste des dépendances Python
+└── README.md              # Ce fichier ✨
 
 
-## Exécution du pipeline
 
-### 1. Cloner le projet :
-```bash
-git clone https://github.com/ton-utilisateur/ecommerce_pipeline_project.git
+
+## ⚙️ Exécution du pipeline
+
+### 1. Cloner le projet
+
+git clone https://github.com/TON_UTILISATEUR/ecommerce_pipeline_project.git
 cd ecommerce_pipeline_project
+
 
 ### 2. Créer un environnement virtuel :
 
