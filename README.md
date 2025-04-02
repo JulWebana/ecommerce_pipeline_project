@@ -1,4 +1,4 @@
-# 🛍️ E-commerce Sales Pipeline Project
+# E-commerce Sales Pipeline Project
 
 Ce projet met en place un **pipeline de traitement de données e-commerce** complet : de l’ingestion des données brutes jusqu’à l’analyse et la visualisation des ventes.
 
